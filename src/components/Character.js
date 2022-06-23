@@ -2,7 +2,7 @@ import '../App.css';
 import {useQuery} from '@apollo/client'
 import {GET_CHARACTER_DETAILS} from '../gql/Query'
 import { useParams } from 'react-router-dom';
-import { Box, CircularProgress ,label} from '@mui/material';
+import { Box, CircularProgress } from '@mui/material';
 import Navbar from './Navbar';
 import Footer from './Footer';
 

@@ -2,11 +2,8 @@ import '../App.css';
 import {useQuery} from '@apollo/client'
 import { GET_EPISODES_BY_NAME} from '../gql/Query'
 import { Link } from 'react-router-dom';
-
-
-
 import { useEffect, useState } from 'react';
-import { AppBar, Paper, Tab,Box, Tabs, ListItem ,ListItemText,CircularProgress, List} from '@mui/material';
+import { AppBar, Paper, Tab,Box, Tabs, ListItem ,ListItemText,CircularProgress} from '@mui/material';
 import Footer from './Footer';
 import Navbar from './Navbar';
 
@@ -85,7 +82,7 @@ useEffect(()=>{
       {data.episodes.results.map((episode, index) => (
         <ListItem key={episode.id} value={value} index={index} >
           <div className='card' >
-         <img  src="https://joeschmoe.io/api/v1/random" /><br/>
+         <img  src="https://joeschmoe.io/api/v1/random" alt='random_avatar' /><br/>
          <ListItemText style={{color:'white',textAlign:'center'}} primary={episode.episode} />         
          <Link  style={{textDecoration:'none'}}
          to={`/episode/${episode.id}`}><ListItemText  
