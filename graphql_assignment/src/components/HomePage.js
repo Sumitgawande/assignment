@@ -25,6 +25,8 @@ const {loading,error,data} = useQuery(GET_EPISODES_BY_NAME,{
 
 
 
+
+
 useEffect(()=>{
   if(value === 0){
     setName('Rick');
