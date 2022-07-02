@@ -30,6 +30,9 @@ useEffect(()=>{
   console.log('changed from local branch sdjasjdklalkd');
   console.log('changed from local branch sdjasjdklalkd');
   console.log('changed from local branch sdjasjdklalkd');
+  console.log('changed from local branch sdjasjdklalkd');
+  console.log('changed from local branch ');
+  console.log('changed from local branch sdjasjdklalkd');
   if(value === 0){
     setName('Rick');
   }else{
