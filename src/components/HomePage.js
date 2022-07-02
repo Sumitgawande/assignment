@@ -26,6 +26,7 @@ const {loading,error,data} = useQuery(GET_EPISODES_BY_NAME,{
 
 
 useEffect(()=>{
+  console.log('changed from local branch');
   if(value === 0){
     setName('Rick');
   }else{
