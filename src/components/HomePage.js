@@ -28,19 +28,7 @@ console.log('new data added');
 
 
 useEffect(()=>{
-  console.log('new mwssdhslkjsk');
-  console.log('new local branch data');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  console.log('new mwssdhslkjsk');
-  
+  console.log('new master data');
   if(value === 0){
     setName('Rick');
   }else{
