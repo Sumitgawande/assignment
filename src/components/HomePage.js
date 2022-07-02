@@ -35,8 +35,10 @@ useEffect(()=>{
   console.log('new mwssdhslkjsk');
   console.log('new mwssdhslkjsk');
   console.log('new master data');
+  console.log('new master data');
+  console.log('new master data');
+  console.log('new master data');
   console.log('new mwssdhslkjsk');
-  
   if(value === 0){
     setName('Rick');
   }else{
