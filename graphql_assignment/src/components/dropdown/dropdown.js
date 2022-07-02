@@ -1,0 +1,93 @@
+// import React, { useState } from 'react'
+// import {Link} from 'react-router-dom'
+// import './dropdown.css'
+// /**
+// * @author
+// * @function Dropown
+// **/
+
+// const Dropown = (props) => {
+
+//   const [click, setClick] = useState(false);
+
+//   const handleClick =()=>{
+//    setClick(!click);
+//   }
+
+  
+
+
+//   return (
+//     <>
+//       <ul  onClick={handleClick} 
+//       className= {click ? 'dropdown-menu.clicked' :  "dropdown-menu"}  >
+//         <li className="dropdown-item">
+//           <Link   onClick={() => setClick(false)}  to="/political">
+//             Trending
+//           </Link>
+//         </li>
+//         <li className="dropdown-item">
+//           <Link   onClick={() => setClick(false)} className=  "dropdown-link" to="/political">
+//                      Political
+//           </Link>
+//         </li>
+//         <li className="dropdown-item">
+//           <Link   onClick={() => setClick(false)} className=   "dropdown-link" to="/political">
+//                       Business
+//           </Link>
+//         </li>
+//         <li className="dropdown-item">
+//           <Link    onClick={() => setClick(false)} className=  "dropdown-link" to="/political">
+//                      Sports
+//           </Link>
+//         </li>
+//         <li className="dropdown-item">
+//           <Link   onClick={() => setClick(false)}  className="dropdown-link" to="/political">
+//                    Tech-buzz
+//           </Link>
+//         </li>
+//       </ul>
+
+
+//     </>
+//   );
+
+// }
+
+// export default Dropown;
+
+import React, { useState } from 'react';
+import { MenuItems } from './MenuItems';
+import './dropdown.css';
+import { Link } from 'react-router-dom';
+
+const Dropdown = () => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+
+  return (
+    <>
+      <ul
+        onClick={handleClick}
+        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+      >
+        {MenuItems.map((item, index) => {
+          return (
+            <li key={index}>
+              <Link
+                className={item.cName}
+                to={item.path}
+                onClick={() => setClick(false)}
+              >
+                {item.title}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  );
+}
+
+export default Dropdown;
