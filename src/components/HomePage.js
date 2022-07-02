@@ -27,6 +27,9 @@ const {loading,error,data} = useQuery(GET_EPISODES_BY_NAME,{
 
 useEffect(()=>{
   console.log('pulled changes from rmeote t local');
+  console.log('pulled changes from rmeote t local');
+  console.log('pulled changes from rmeote t local');
+  console.log('pulled changes from rmeote t local');
   if(value === 0){
     setName('Rick');
   }else{
