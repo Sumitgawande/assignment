@@ -28,6 +28,7 @@ const {loading,error,data} = useQuery(GET_EPISODES_BY_NAME,{
 
 
 useEffect(()=>{
+  console.log('pushed from  my branch to main branch');
   if(value === 0){
     setName('Rick');
   }else{
