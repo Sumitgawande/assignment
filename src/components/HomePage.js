@@ -23,6 +23,8 @@ const [name,setName] = useState('');
 const {loading,error,data} = useQuery(GET_EPISODES_BY_NAME,{
   variables:{name:name}
 });
+console.log('new data added');
+
 
 
 useEffect(()=>{
