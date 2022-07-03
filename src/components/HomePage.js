@@ -49,7 +49,7 @@ console.log('new data added local');
 console.log('new data added local');
 console.log('new data added local');
 
-
+console.log('new data added local');console.log('new data added local');
 
   return (
  <div className="homepage">
@@ -123,6 +123,10 @@ console.log('new data added local');
 }
 
 export default HomePage;
+
+console.log('new data added local to master');console.log('new data added local');
+console.log('new data added local');
+console.log('new data added local');
 
 
 
