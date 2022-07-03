@@ -50,6 +50,10 @@ console.log('new data added local');
 console.log('new data added local');
 
 console.log('new data added local');console.log('new data added local');
+console.log('new data added local');console.log('new data added local');
+console.log('new data added local');console.log('new data added local');
+console.log('new data added local');console.log('new data added local');
+
 
   return (
  <div className="homepage">
