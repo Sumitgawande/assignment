@@ -33,6 +33,9 @@ useEffect(()=>{
   console.log('new master data');
   console.log('new master data');
   console.log('new master data');
+  console.log('new master data fresh one');
+  console.log('new master data fresh one');
+  
   
   if(value === 0){
     setName('Rick');
