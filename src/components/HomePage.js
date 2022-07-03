@@ -29,6 +29,11 @@ console.log('new data added');
 
 useEffect(()=>{
   
+  console.log('new master data');
+  console.log('new master data');
+  console.log('new master data');
+  console.log('new master data');
+  
   if(value === 0){
     setName('Rick');
   }else{
