@@ -49,7 +49,9 @@ console.log('new data added local');
 console.log('new data added local');
 console.log('new data added local');
 
-console.log('new data added local');console.log('new data added local');
+console.log('new data added local');
+console.log('new data added local');
+console.log('new data added local for rebase ');
 
   return (
  <div className="homepage">
