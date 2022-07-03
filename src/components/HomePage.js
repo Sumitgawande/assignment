@@ -34,6 +34,10 @@ useEffect(()=>{
   console.log('new master data');
   console.log('new master data');
   
+  console.log('new data added local');
+  console.log('new data added local');
+  console.log('new data added local');
+  console.log('new data added local');
   if(value === 0){
     setName('Rick');
   }else{
@@ -42,6 +46,9 @@ useEffect(()=>{
  
 },[value])
 
+console.log('new data added local');
+console.log('new data added local');
+console.log('new data added local');
 
 
 
