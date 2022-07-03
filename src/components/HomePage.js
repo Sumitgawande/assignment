@@ -37,6 +37,7 @@ useEffect(()=>{
   console.log('new data added local');
   console.log('new data added local');
   console.log('new data added local');
+  console.log('new data added local fresh one');
   console.log('new data added local');
   if(value === 0){
     setName('Rick');
