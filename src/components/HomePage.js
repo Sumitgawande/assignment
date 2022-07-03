@@ -51,7 +51,7 @@ console.log('new data added local');
 
 console.log('new data added local');
 console.log('new data added local');
-console.log('new data added local for rebase ');
+console.log('new data added local for rebase changed content from local branch');
 
   return (
  <div className="homepage">
